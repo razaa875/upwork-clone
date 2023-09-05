@@ -1,0 +1,738 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fixed {
+    position: sticky;
+    top: 0;
+    z-index: calc(10000);
+}
+
+nav img {
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+
+}
+nav li:hover{
+    cursor: pointer;
+    color: #14A800;
+}
+.signpp:hover{
+    background-color: #1dd304;
+    /* background-color: #E4EBE4; */
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    /* gap: 30px; */
+    padding-left: 25px;
+    align-items: center;
+    /* margin-top: 17px; */
+}
+
+.nav-input {
+    width: 45%;
+    /* height: 70px; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-input input {
+
+    height: 40px;
+    width: 70%;
+
+    padding-left: 10px;
+    border: none;
+
+}
+
+
+.nav-input select {
+    height: 50px;
+    width: 30%;
+    border: none;
+    /* display: flex; */
+    text-align: center;
+
+}
+
+
+.div-input {
+    height: 52px;
+    border-radius: 50px;
+    width: 80%;
+    border: 2px solid #E4EBE4;
+    overflow: hidden;
+    /* background-color: #14A800; */
+}
+
+
+.nav-input button {
+    height: 40px;
+    width: auto;
+    padding: 10px 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: #14A800;
+    color: aliceblue;
+    border: none;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .........................menu........................... */
+
+.menu {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.menu li:hover{
+    cursor: pointer;
+    color: #14A800;
+    text-decoration: underline;
+}
+/* .......................1st conatiner................... */
+
+.main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    /* padding: 50px; */
+    /* background-color: yellowgreen; */
+}
+
+.first {
+    height: 400px;
+    width: 70%;
+    /* margin-left: 50px; */
+}
+
+.first h1 {
+    font-size: 80px;
+    width: 500px;
+    color: #14A800;
+}
+
+.first p {
+    font-size: 21px;
+    width: 500px;
+    margin-top: 20px;
+    color: #5E6D55;
+}
+
+.first button {
+    padding: 10px 40px;
+    background-color: #14A800;
+    border-radius: 50px;
+    border: none;
+    color: #E4EBE4;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.first-img img {
+    height: 500px;
+    width: 500px;
+    /* margin-right: 40px; */
+}
+
+.promotion-images img {
+    display: inline-block;
+    height: 50px;
+    width: 90px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.first span {
+    display: block;
+    margin-top: 80px;
+    font-size: 18px;
+    color: #5E6D55;
+}
+
+/* ................Second............................ */
+
+.container2 {
+    display: flex;
+    margin-top: 80px;
+
+}
+
+.finance-work-image {
+    background-color: #F2F7F2;
+    height: 400px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.signup-div {
+    margin-left: 50px;
+}
+
+.signup-div h1 {
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.signup-div h3 {
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.signup-div p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.signup-div button {
+    padding: 12px 20px;
+    background-color: #14A800;
+    color: #F2F7F2;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: 1px solid #14A800;
+    margin-left: 10px;
+}
+
+.signup-div .learn-how-to-hire {
+    background-color: #FFFFFF;
+    border: 3px solid #14A800;
+    color: #14A800;
+}
+
+/* .............third............ */
+
+.Browse-talent-by-category h1 {
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+.Browse-talent-by-category p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #5E6D55;
+}
+
+.Browse-talent-by-category span {
+    color: #14A800;
+    cursor: pointer;
+}
+
+
+/* ............Fourth.............. */
+
+.option-divs {
+    height: 400px;
+    width: 100%;
+    margin-top: 70px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.option {
+    height: 150px;
+    width: 24%;
+    background-color: #e4ebe454;
+    border-radius: 5px;
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.option:hover {
+    background-color: #d9e0d9;
+}
+
+.option h2 {
+    padding-top: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.option span {
+    margin-right: 50px;
+    font-size: 18px;
+    color: #5E6D55;
+}
+
+
+/* .............Fourth................... */
+
+
+.enterprise-suite {
+    height: 600px;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* background-color: yellow; */
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.content {
+    height: 600px;
+    width: 65%;
+    background-color: #13544E;
+    padding-left: 25px;
+}
+
+.content h4 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.content h1 {
+    font-size: 50px;
+    width: 500px;
+    color: #FFFFFF;
+}
+
+.content h2 {
+    font-size: 50px;
+    width: 550px;
+    color: #91E6B3;
+}
+
+.content p {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.content button {
+    padding: 10px 30px;
+    background-color: #FFFFFF;
+    color: #5E6D55;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 50px;
+}
+.content button:hover{
+    color: #FFFFFF;
+    background-color:#5E6D55 ;
+}
+
+.img img {
+    height: 600px;
+    width: 100%;
+}
+
+.img {
+    width: 35%;
+}
+
+/* ...........Fifth................ */
+
+.find-talent-your-way {
+    height: 620px;
+    width: 100%;
+    margin-top: 60px;
+    background-image: url(Images/find-talent-2x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+    border-radius: 20px;
+    padding-top: 30px;
+    color: #ffffffea;
+}
+
+.find-talent-your-way h4 {
+    font-size: 24px;
+
+    padding: 20px;
+
+}
+
+.find-talent-your-way h1 {
+    font-size: 50px;
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.find-talent-your-way p {
+    font-size: 22px;
+    width: 450px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.cards-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.card {
+    height: 150px;
+    width: 31%;
+    /* background-color: violet; */
+    border-radius: 10px;
+    /* padding-left: 15px; */
+    padding: 10px;
+    background-color: #14A800;
+    color: white;
+}
+.card:hover{
+    color: #14A800;
+    background-color: transparent;
+}
+.card h2 {
+    text-align: left;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.card p {
+    font-size: 19px;
+    margin: 10px;
+    color: #FFFFFF;
+}
+
+/* ..........Sixth................. */
+
+.difficult-div {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.Why-businesses-turn-to-Upwork {
+    height: 600px;
+    width: 65%;
+    background-color: #F2F7F2;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.Why-businesses-turn-to-Upwork h1 {
+    font-size: 50px;
+}
+
+.Why-businesses-turn-to-Upwork h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.Why-businesses-turn-to-Upwork p {
+    font-size: 18px;
+    color: #5E6D55;
+    margin-top: 15px;
+    width: 499px;
+}
+
+.div-2 {
+    height: 600px;
+    width: 33%;
+    background-color: #14A800;
+    padding-left: 30px;
+    padding-top: 180px;
+    color: #FFFFFF;
+}
+
+.div-2 h2 {
+    font-size: 44px;
+    /* color: #FFFFFF; */
+    /* padding-left: 20px; */
+}
+
+.div-2 h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    /* padding-left: 20px; */
+}
+
+.div-2 p {
+    font-size: 20px;
+    margin-top: 5px;
+    /* padding-left: 20px; */
+}
+
+.floating-img {
+    position: absolute;
+    width: 600px;
+}
+
+.floating-img img {
+    position: relative;
+    /* margin-left: 120%; */
+    padding-left: 530px;
+    height: 670px;
+    top: -50px;
+}
+
+/* ...............seventh.................... */
+
+.find-great-work {
+    display: flex;
+    margin-top: 100px;
+    border-radius: 20px;
+    overflow: hidden;
+    /* margin-bottom: 400px; */
+    /* height: 800px;
+overflow: hidden; */
+width: 100%;
+height: 500px;
+}
+
+.pic {
+    background-image: url(./Images/find-great-work@2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+
+}
+
+.pic img {
+    width: max-content;
+    height: fit-content;
+}
+
+.cont {
+    padding: 20px;
+    color: #FFFFFF;
+    background-color: #1F57C3;
+    width: 50%;
+}
+
+.cont h2 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.cont h1 {
+    font-size: 55px;
+    margin-top: 10px;
+}
+
+.cont p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.cont hr {
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 45px;
+}
+
+.p-graphs {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.p-graphs p {
+    width: 190px;
+    font-size: 14px;
+}
+
+.find-oppotunities {
+    /* padding: 15px 45px; */
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    color: #1F57C3;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 5px;
+    /* padding-top: 10px; */
+    border: none;
+}
+
+/* ...................Eight...................... */
+.ukraine-1{
+    width: 100%;
+    background-color: #F7FAF7;
+    border-radius: 20px;
+    display: flex;
+    margin-top: 50px;
+    /* padding-top: 10px; */
+    padding-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.ukraine {
+    height: 250px;
+    width: 80%;
+    background-color: #F7FAF7;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 20px;
+
+}
+.pc{
+    width: 20%;
+    /* background-image: url(./Images/ukraine.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+
+}
+.ukraine h1 {
+    font-size: 40px;
+}
+
+.ukraine p {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #5E6D55;
+}
+
+.ukraine button {
+    padding: 10px 40px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #14A800;
+    border: 3px solid #14A800;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+/* ..........ninth............... */
+
+.bottom {
+    height: 800px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+padding-left: 20px;
+margin-top: 30px;
+padding-right: 80px;
+justify-content: space-between;
+}
+
+.bottom ul {
+    list-style: none;
+    /* margin-right: 150px; */
+    font-size: 24px;
+}
+
+.bottom li{
+    margin-top: 5px;
+    color: #5E6D55;
+}
+.options li{
+    font-size: 36px;
+    margin-top: 10px;
+    color: #5e6d553f;
+    font-weight: bolder;
+}
+.bottom span li{
+    color: #14A800;
+}
+.bottom li:hover{
+    color: #14A800;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+/* .................footer................ */
+
+.footer{
+    height: 700px;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    background-color: #001E00;
+    /* padding-left: 50px; */
+    /* padding-right: 150px; */
+    padding-top: 50px;
+}
+.option-footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    
+}
+.option-footer li{
+    list-style: none;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.logos-footer{
+display: flex;
+margin-top: 100px;
+}
+.logos-footer img{
+    height: 30px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    width: 30px;
+}
+.yt{
+    width: 50px;
+}
+.logos-footer p{
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+.logos-footer hr{
+    margin-top: 20px;
+}
